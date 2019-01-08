@@ -16,7 +16,7 @@ import org.hibernate.annotations.NaturalId;
 import org.hibernate.annotations.UpdateTimestamp;
 
 @Entity
-@Table(schema = "leave_system", name = "user")
+@Table(schema = "hrm_system", name = "user")
 public class User implements Serializable {
 	/**
 	 * 

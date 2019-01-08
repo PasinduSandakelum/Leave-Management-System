@@ -17,7 +17,7 @@ import javax.persistence.Table;
 import org.hibernate.annotations.UpdateTimestamp;
 
 @Entity
-@Table(schema = "leave_system", name = "login")
+@Table(schema = "hrm_system", name = "login")
 public class Login implements Serializable {
 	/**
 	 * 

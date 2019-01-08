@@ -9,7 +9,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(schema="leave_system", name="role")
+@Table(schema="hrm_system", name="role")
 public class Role  implements Serializable{
 	/**
 	 * 

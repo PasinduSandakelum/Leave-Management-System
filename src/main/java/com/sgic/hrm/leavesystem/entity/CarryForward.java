@@ -11,7 +11,7 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(schema = "leave_system", name = "carry_forward")
+@Table(schema = "hrm_system", name = "carry_forward")
 public class CarryForward implements Serializable {
 
 	/**

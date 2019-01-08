@@ -18,7 +18,7 @@ import org.hibernate.annotations.UpdateTimestamp;
 
 
 @Entity
-@Table(schema = "leave_system", name = "leave_request")
+@Table(schema = "hrm_system", name = "leave_request")
 public class LeaveRequest implements Serializable {
 	/**
 	 * 

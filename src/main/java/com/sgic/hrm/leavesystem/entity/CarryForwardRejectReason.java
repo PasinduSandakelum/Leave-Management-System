@@ -13,7 +13,7 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(schema = "leave_system", name = "carry_forward_reject_reason")
+@Table(schema = "hrm_system", name = "carry_forward_reject_reason")
 public class CarryForwardRejectReason implements Serializable{
 	/**
 	 * 

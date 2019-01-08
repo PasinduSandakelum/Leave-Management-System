@@ -11,7 +11,7 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(schema = "leave_system", name = "carry_forward_request")
+@Table(schema = "hrm_system", name = "carry_forward_request")
 public class CarryForwardRequest {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)

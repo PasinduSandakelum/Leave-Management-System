@@ -11,7 +11,7 @@ import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(schema = "leave_system", name = "leave")
+@Table(schema = "hrm_system", name = "leave")
 public class Leave implements Serializable {
 	/**
 	 * 
